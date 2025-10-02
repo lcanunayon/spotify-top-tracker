@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const CLIENT_ID = "8e77974a64774b40aa10a3b97f7e8ffd"; 
-const REDIRECT_URI = " https://indemonstrable-kandace-interestuarine.ngrok-free.dev"; // change to your deployed domain
+const REDIRECT_URI = "https://indemonstrable-kandace-interestuarine.ngrok-free.dev"; // change to your deployed domain
 const SCOPES = "user-read-currently-playing user-read-playback-state";
 
 export default function SpotifyTracker() {
